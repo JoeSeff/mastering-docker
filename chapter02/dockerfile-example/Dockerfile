@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.9
 LABEL maintainer="Russ McKendrick <russ@mckendrick.io>"
 LABEL description="This example Dockerfile installs NGINX."
 RUN apk add --update nginx && \
